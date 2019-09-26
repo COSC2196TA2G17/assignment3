@@ -33,10 +33,36 @@
                 <header>
                     <div class="title">
                         <h2>Contact</h2>
-                        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                        <p>Please use the below form to contact the team...</p>
                     </div>
                 </header>
-                <p>Add form here...</p>
+                <form id="contactform" onsubmit="submit_form(); return false;" action="">
+                    <div class="fields">
+                        <div class="field">
+                            <div id="message_result"></div>
+                        </div>
+                        <div class="field half">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="John Doe"
+                                required="required" />
+                        </div>
+                        <div class="field half">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="john@email.com"
+                                required="required" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" placeholder="Message"
+                                required="required"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input id="submit" type="submit" value="Send Message"
+                                class="primary" /></li>
+                        <li><input id="reset" type="reset" value="Reset" /></li>
+                    </ul>
+                </form>
             </article>
         </div>
         <!-- Sidebar -->
