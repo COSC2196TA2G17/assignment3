@@ -15,11 +15,12 @@ function submit_form() {
 
     $('#message_result').html('Sending...');
 
+    $.ajaxSetup({ cache: false });
+
     $.ajax({
         url: 'https://api.mattkellock.com/cosc2196-a2',
         type: 'post',
         contentType: 'application/json',
-        crossDomain: true,
         dataType: 'json',
         success: function(data) {
             $('#message_result').html('Your message has been sent!');
