@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+
+
+
+    <!-- Stylesheets required for owl - carousel -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/css/docs.theme.min.css">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+	
+	<!--  END Stylesheets required for owl - carousel -->
+
+
+
+
+
+  </head>
+  <body>
+
+
+
+    <!--  Demos -->
+    <section id="demos">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <h4>1</h4>
+            </div>
+            <div class="item">
+              <h4>2</h4>
+            </div>
+            <div class="item">
+              <h4>3</h4>
+            </div>
+            <div class="item">
+              <h4>4</h4>
+            </div>
+            <div class="item">
+              <h4>5</h4>
+            </div>
+          </div>
+          <a class="button secondary play">Play</a> 
+          <a class="button secondary stop">Stop</a> 
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    
+	<footer>
+
+	    <!-- javascript for owl-carousel -->
+		<script src="../assets/vendors/jquery.min.js"></script>
+		<script src="../assets/owlcarousel/owl.carousel.js"></script>
+	         
+			 <script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+          </script>
+		  
+		      <!-- vendors -->
+			<script src="../assets/vendors/highlight.js"></script>
+			<script src="../assets/js/app.js"></script>
+		  
+		<!-- end javascript for owl-carousel -->
+	
+    </footer>
+
+
+  </body>
+</html>
