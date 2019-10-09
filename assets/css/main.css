@@ -3608,3 +3608,29 @@ input, select, textarea {
 			}
 
 		}
+
+		.frame {
+			overflow-y: auto;
+			border: 1px solid rgba(160, 160, 160, 0.3);
+			max-width: 736px;
+			line-height: 1em;
+		}
+		
+		.frame::-webkit-scrollbar {
+			-webkit-appearance: none;
+		}
+		
+		.frame::-webkit-scrollbar:vertical {
+			width: 11px;
+		}
+		
+		.frame::-webkit-scrollbar:horizontal {
+			height: 11px;
+		}
+		
+		.frame::-webkit-scrollbar-thumb {
+			border-radius: 8px;
+			border: 2px solid white; /* should match background, can't be transparent */
+			background-color: #3c3b3b;
+		}
+		
