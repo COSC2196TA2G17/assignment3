@@ -2127,12 +2127,18 @@ input[type="radio"]+label:before {
 	max-width: 25%;
 }
 
+.image.leftlarge {
+	max-width: 40%;
+}
+
 .image.left img,
+.image.leftlarge img,
 .image.right img {
 	width: 100%;
 }
 
-.image.left {
+.image.left,
+.image.leftlarge {
 	float: left;
 	padding: 0 1.5em 1em 0;
 	top: 0.25em;
