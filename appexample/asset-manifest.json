@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/appexample/static/css/main.fc772e40.chunk.css",
+    "main.js": "/appexample/static/js/main.c9bd0f1d.chunk.js",
+    "main.js.map": "/appexample/static/js/main.c9bd0f1d.chunk.js.map",
+    "runtime-main.js": "/appexample/static/js/runtime-main.cb5b2f90.js",
+    "runtime-main.js.map": "/appexample/static/js/runtime-main.cb5b2f90.js.map",
+    "static/js/2.543bafd2.chunk.js": "/appexample/static/js/2.543bafd2.chunk.js",
+    "static/js/2.543bafd2.chunk.js.map": "/appexample/static/js/2.543bafd2.chunk.js.map",
+    "index.html": "/appexample/index.html",
+    "precache-manifest.59a8db23f76dc876a8c7b40effb00ea6.js": "/appexample/precache-manifest.59a8db23f76dc876a8c7b40effb00ea6.js",
+    "service-worker.js": "/appexample/service-worker.js",
+    "static/css/main.fc772e40.chunk.css.map": "/appexample/static/css/main.fc772e40.chunk.css.map",
+    "static/media/App.css": "/appexample/static/media/trammask.111d9a99.png",
+    "static/media/tram.png": "/appexample/static/media/tram.62b443e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb5b2f90.js",
+    "static/js/2.543bafd2.chunk.js",
+    "static/css/main.fc772e40.chunk.css",
+    "static/js/main.c9bd0f1d.chunk.js"
+  ]
+}
